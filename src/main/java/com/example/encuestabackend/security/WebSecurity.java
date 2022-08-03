@@ -10,7 +10,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.example.encuestabackend.services.UserService;
 
-import ch.qos.logback.core.filter.Filter;
 
 @EnableWebSecurity
 public class WebSecurity extends WebSecurityConfigurerAdapter {

@@ -8,4 +8,7 @@ import com.example.encuestabackend.entities.UserEntity;
 @Repository
 public interface UserRepository extends CrudRepository<UserEntity, Long> {
     public UserEntity findByEmail(String email);
+    public UserEntity findById(long id);
+
 }
+
